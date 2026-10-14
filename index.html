@@ -3,43 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation Développement Web</title>
+    <title>Campus Numérique - Formations aux métiers du numérique</title>
 </head>
 <body>
 
     <header>
-        <h1>Formation Développement Web Moderne</h1>
-        <p>Apprenez à créer des sites web modernes, accessibles et responsives de zéro, en maîtrisant les fondements du web.</p>
+        <p><strong>Campus Numérique</strong></p>
+        <nav>
+            <ul>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#sessions">Sessions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section>
-            <h2>Informations pratiques</h2>
-            <ul>
-                <li><strong>Durée :</strong> 3 mois (temps partiel)</li>
-                <li><strong>Niveau :</strong> Débutant</li>
-            </ul>
+            <h1>Formez-vous aux métiers du numérique</h1>
+            <p>Des formations certifiantes, en alternance, ouvertes à tous les profils motivés.</p>
+            <p><a href="#formations">Voir les formations</a></p>
         </section>
 
-        <section>
-            <h2>Programme de la formation</h2>
-            <ul>
-                <li>Introduction au Web et aux bonnes pratiques HTML5</li>
-                <li>Structuration sémantique des pages web</li>
-                <li>Introduction au CSS3 et mise en page (Flexbox, Grid)</li>
-                <li>Introduction au JavaScript et interactivité</li>
-                <li>Gestion de versions avec Git et GitHub</li>
-            </ul>
+        <section id="formations">
+            <h2>Nos formations</h2>
+
+            <article>
+                <p>Bac+3</p>
+                <h3>Développeur en intelligence artificielle</h3>
+                <p>Concevoir des applications qui intègrent des modèles d'IA, de la donnée à l'interface.</p>
+                <ul>
+                    <li>18 mois</li>
+                    <li>Alternance</li>
+                </ul>
+                <p><a href="#">En savoir plus</a></p>
+            </article>
+
+            <article>
+                <p>Bac+2</p>
+                <h3>Développeur web et web mobile</h3>
+                <p>Créer des sites et des applications web, du front-end à la base de données.</p>
+                <ul>
+                    <li>12 mois</li>
+                    <li>Alternance</li>
+                </ul>
+                <p><a href="#">En savoir plus</a></p>
+            </article>
+
+            <article>
+                <p>Bac+3</p>
+                <h3>Data analyst</h3>
+                <p>Collecter, nettoyer et analyser des données pour aider à la décision.</p>
+                <ul>
+                    <li>14 mois</li>
+                    <li>Alternance</li>
+                </ul>
+                <p><a href="#">En savoir plus</a></p>
+            </article>
+
+            <article>
+                <p>Bac+2</p>
+                <h3>Technicien en cybersécurité</h3>
+                <p>Surveiller, protéger et sécuriser les systèmes d'information d'une entreprise.</p>
+                <ul>
+                    <li>12 mois</li>
+                    <li>Temps plein</li>
+                </ul>
+                <p><a href="#">En savoir plus</a></p>
+            </article>
+
+            <article>
+                <p>Bac+3</p>
+                <h3>Administrateur cloud</h3>
+                <p>Déployer et maintenir des infrastructures dans le cloud, automatiser les mises en production.</p>
+                <ul>
+                    <li>15 mois</li>
+                    <li>Alternance</li>
+                </ul>
+                <p><a href="#">En savoir plus</a></p>
+            </article>
+
+            <article>
+                <p>Bac+2</p>
+                <h3>Concepteur UX/UI</h3>
+                <p>Imaginer des interfaces utiles et accessibles, de la recherche utilisateur à la maquette.</p>
+                <ul>
+                    <li>10 mois</li>
+                    <li>Temps plein</li>
+                </ul>
+                <p><a href="#">En savoir plus</a></p>
+            </article>
         </section>
 
-        <section>
-            <h2>Illustration de la formation</h2>
-            <img src="img/travailIMG.jpg" alt="Illustration d'un espace de travail">
+        <section id="sessions">
+            <h2>Prochaines sessions</h2>
+            <table>
+                <caption>Dates de rentrée et places disponibles</caption>
+                <thead>
+                    <tr>
+                        <th>Formation</th>
+                        <th>Ville</th>
+                        <th>Rentrée</th>
+                        <th>Places</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Développeur en intelligence artificielle</td>
+                        <td>Creil</td>
+                        <td>12/01/2027</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Développeur web et web mobile</td>
+                        <td>Beauvais</td>
+                        <td>01/02/2027</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>Data analyst</td>
+                        <td>Compiègne</td>
+                        <td>15/02/2027</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Technicien en cybersécurité</td>
+                        <td>Creil</td>
+                        <td>08/03/2027</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Administrateur cloud</td>
+                        <td>Amiens</td>
+                        <td>05/04/2027</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Demande d'information</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nom">Nom et prénom</label><br>
+                    <input type="text" id="nom" name="nom">
+                </div>
+                <div>
+                    <label for="email">Adresse email</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="formation">Formation souhaitée</label><br>
+                    <select id="formation" name="formation">
+                        <option value="ia">Développeur en intelligence artificielle</option>
+                        <option value="web">Développeur web et web mobile</option>
+                        <option value="data">Data analyst</option>
+                        <option value="cyber">Technicien en cybersécurité</option>
+                        <option value="cloud">Administrateur cloud</option>
+                        <option value="uxui">Concepteur UX/UI</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Votre message</label><br>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer la demande</button>
+                </div>
+            </form>
         </section>
     </main>
 
     <footer>
-        <p><a href="sessions.html">Voir les prochaines sessions disponibles</a></p>
+        <p>&copy; 2026 Campus Numérique · Centre de formation fictif</p>
+        <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Accessibilité</a></li>
+        </ul>
     </footer>
 
 </body>
